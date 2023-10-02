@@ -98,19 +98,74 @@ nav ul li a {
  border-radius: 50%;
  object-fit: cover;
 }
-
+.see-more{
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.see-more:hover {
+    background-color: #0056b3;
+}
 /* Contact section styles */
 .contact-section {
     margin-top: 20px;
+}
+.contact-section h2{
+    color:#007BFF;
 }
 
 .contact-section ul {
     list-style-type: none;
     padding-left: 0;
+    margin-top:20px;
 }
 
 .contact-section ul li {
-    margin-bottom: 10px;
+    text-align: center;
+    display: inline;
+    padding:20px;
+    margin:10px;
+}
+
+ /* Form styles */
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Submit button hover effect */
+input[type="submit"]:hover {
+    background-color: #0056b3;
 }
 
 /* Footer styles */
